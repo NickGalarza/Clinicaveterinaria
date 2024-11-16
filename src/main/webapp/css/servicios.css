@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+.services-section {
+    text-align: center;
+    padding: 30px;
+    background-color: #f9f9f9;
+}
+
+.services-section h2 {
+    font-size: 44px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Estilo para cada tarjeta de servicio */
+.service-card {
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 800px;
+}
+
+/* Imagen del servicio */
+.service-card img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Información del servicio */
+.service-info {
+    padding: 20px;
+    text-align: left;
+}
+
+.service-info h3 {
+    font-size: 24px;
+    color: #333;
+    margin: 0 0 10px;
+}
+
+.service-info p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
